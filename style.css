@@ -30,6 +30,7 @@ main {
 
 .step-img1 {
   height: 150px;
+  /*height: 35vw;*/
   background-image: url(img/flow01.png);
   background-size: cover;
   background-position: bottom;
@@ -37,6 +38,7 @@ main {
 
 .step-img2 {
   height: 150px;
+  /*height: 35vw;*/
   background-image: url(img/flow02.png);
   background-size: cover;
   background-position: bottom;
@@ -44,6 +46,7 @@ main {
 
 .step-img3 {
   height: 150px;
+  /*height: 35vw;*/
   background-image: url(img/flow03.png);
   background-size: cover;
   background-position: bottom;
@@ -75,5 +78,16 @@ main {
   }
   .step-box:last-child {
    margin: 0 auto;
+  }
+/*添削後追加*/
+/*画面幅に応じて高さも変更できます。vwとは、画面幅に対して何%にするか、という単位で、100vwが画面幅の100%になります。*/
+  .step-img1 {
+  height: 55vw;
+  }
+  .step-img2 {
+  height: 45vw;
+  }
+  .step-img3 {
+  height: 35vw;
   }
 }
